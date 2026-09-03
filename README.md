@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ManutControl
 
-## Getting Started
+Dashboard responsivo de controle de manutenção industrial desenvolvido para a disciplina PFEND2.
 
-First, run the development server:
+O projeto foi desenvolvido utilizando Next.js, React, JavaScript e Tailwind CSS, com os dados fornecidos na atividade armazenados em um arquivo JSON local.
+
+## 👨‍💻 Desenvolvedor
+
+**Nome:** Isabelly Gliber Franzoni
+
+**Disciplina:** PFEND2
+
+**Professor:** Gustavo Paiva
+
+## 🏭 Sobre o projeto
+
+O ManutControl é um dashboard desenvolvido para auxiliar no acompanhamento das atividades de manutenção de uma indústria.
+
+A interface permite visualizar informações importantes sobre ordens de serviço, equipamentos e serviços programados, facilitando a identificação de situações que precisam de atenção.
+
+O sistema apresenta:
+
+- Indicadores de ordens de serviço abertas;
+- Indicadores de ordens de serviço vencidas;
+- Indicadores de equipamentos parados;
+- Lista de ordens de serviço;
+- Informações de prioridade e status;
+- Identificação de ordens vencidas;
+- Busca de ordens de serviço;
+- Filtro por status;
+- Filtro por prioridade;
+- Botão para limpar os filtros;
+- Agenda de serviços programados;
+- Equipamentos em situação crítica;
+- Indicador de risco das ordens de serviço;
+- Interface responsiva para desktop e dispositivos móveis.
+
+Os dados utilizados no projeto são os dados fornecidos na atividade e estão armazenados no arquivo:
+
+`src/data/manutcontrol_dados.json`
+
+## 🚀 Tecnologias utilizadas
+
+- Next.js
+- React
+- JavaScript
+- Tailwind CSS
+- JSON
+
+## ⚙️ Como executar o projeto
+
+### 1. Instalar as dependências
+
+Com o projeto aberto no terminal, execute:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+npm install
